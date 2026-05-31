@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLUE HURT GIRL | Soundcloud Music & Punk-Grunge Visual Portfolio</title>
+  <meta name="description" content="Explore the official music platform of BLUE HURT GIRL. Featuring custom Jinx Arcane visual art, soundcloud integrations, chaotic lo-fi punk, and immersive synth textures.">
+  <meta name="keywords" content="Blue Hurt Girl, Cam, SoundCloud Music, Jinx Arcane, Punk-Grunge, Lo-fi Synth, Custom Portfolio, Electronic Artist">
+  <meta name="author" content="BLUE HURT GIRL">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Retro CRT Visual Screen Filters -->
+  <div class="crt-overlay"></div>
+
+  <!-- Ambient Glowing Particle Canvas Background -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- Main Animated App Layout wrapper -->
+  <div class="crt-flicker-container">
+    <div class="app-container">
+      
+      <!-- LEFT SIDE: Profile, Bio, & Quick Socials -->
+      <aside class="profile-panel" id="artist-profile">
+        <div class="avatar-wrapper">
+          <img src="assets/avatar.png" alt="BLUE HURT GIRL Album Cover Profile" class="avatar-image">
+        </div>
+        
+        <div class="artist-title-container">
+          <h1 class="artist-name glitch-text" data-text="BLUE HURT GIRL">BLUE HURT GIRL</h1>
+          <span class="music-tag">NEON GRUNGE / LO-FI SYNTH</span>
+        </div>
+        
+        <p class="bio-text">
+          BLUE HURT GIRL is an electronic music project by Cam. Influenced by metallic cyber-grunge rhythms, melancholic synth-pop vibes, and Jinx's high-octane Arcane energy. Merging heavy glitch textures, industrial beats, and raw melodic expressions into a distinct wall of sound. Turn it up. Make some noise. Let's get jinxed.
+        </p>
+        
+        <div class="social-links">
+          <a href="https://soundcloud.com/bluehurtgirl" target="_blank" rel="noopener" class="social-btn primary" title="SoundCloud Profile" id="social-sc">
+            <i class="fa-brands fa-soundcloud"></i>
+          </a>
+          <a href="#" class="social-btn" title="Spotify - Coming Soon" id="social-spotify">
+            <i class="fa-brands fa-spotify"></i>
+          </a>
+          <a href="#" class="social-btn" title="Apple Music - Coming Soon" id="social-apple">
+            <i class="fa-brands fa-apple"></i>
+          </a>
+          <a href="#" class="social-btn" title="Instagram Profile" id="social-insta">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </aside>
+
+      <!-- RIGHT SIDE: Audio Console, Releases, & External Portals -->
+      <main class="dashboard-panel">
+        
+        <!-- MODULE 1: Live Audio Transmission Center -->
+        <section class="glowing-panel" id="music-player">
+          <div class="panel-header">
+            <h2 class="panel-title">
+              <span class="panel-title-icon"></span>
+              Live Audio Signal
+            </h2>
+            <span class="panel-badge">ON AIR</span>
+          </div>
+          
+          <!-- Translucent Custom SoundCloud Player Box -->
+          <div class="player-container">
+            <iframe 
+              width="100%" 
+              height="380" 
+              scrolling="no" 
+              frameborder="no" 
+              allow="autoplay" 
+              src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/bluehurtgirl&color=%23ff007f&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true">
+            </iframe>
+          </div>
+        </section>
+
+        <!-- MODULE 2: Soundcloud Direct Portals -->
+        <section class="glowing-panel cyan-theme" id="tracklist-console">
+          <div class="panel-header">
+            <h2 class="panel-title">
+              <span class="panel-title-icon"></span>
+              Featured Audio Files
+            </h2>
+            <span class="panel-badge">PREVIEW</span>
+          </div>
+          
+          <div class="tracks-grid">
+            
+            <div class="track-card" onclick="window.open('https://soundcloud.com/bluehurtgirl', '_blank')">
+              <div class="track-art" style="background-image: url('assets/avatar.png');"></div>
+              <div class="track-info">
+                <h3 class="track-name">LATEST ALBUMS / SINGLES</h3>
+                <span class="track-genre">Listen on SoundCloud</span>
+              </div>
+              <div class="track-action">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+
+            <div class="track-card" onclick="window.open('https://soundcloud.com/bluehurtgirl', '_blank')">
+              <div class="track-art" style="background-image: url('assets/graffiti_bg.png');"></div>
+              <div class="track-info">
+                <h3 class="track-name">PUNK HARMONICS</h3>
+                <span class="track-genre">Industrial Beat / Synthetic</span>
+              </div>
+              <div class="track-action">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- MODULE 3: Hyperlinked Streaming & Social Platforms -->
+        <section class="glowing-panel" id="platform-portals">
+          <div class="panel-header">
+            <h2 class="panel-title">
+              <span class="panel-title-icon"></span>
+              Connect Channels
+            </h2>
+            <span class="panel-badge">EXTERNAL</span>
+          </div>
+          
+          <div class="platforms-grid">
+            <a href="https://soundcloud.com/bluehurtgirl" target="_blank" rel="noopener" class="platform-link soundcloud">
+              <i class="fa-brands fa-soundcloud"></i>
+              <span class="platform-name">SoundCloud</span>
+            </a>
+            
+            <a href="#" class="platform-link spotify">
+              <i class="fa-brands fa-spotify"></i>
+              <span class="platform-name">Spotify</span>
+            </a>
+            
+            <a href="#" class="platform-link apple">
+              <i class="fa-brands fa-apple"></i>
+              <span class="platform-name">Apple Music</span>
+            </a>
+            
+            <a href="#" class="platform-link instagram">
+              <i class="fa-brands fa-instagram"></i>
+              <span class="platform-name">Instagram</span>
+            </a>
+          </div>
+        </section>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Dynamic Footer Decorations -->
+  <footer class="site-footer">
+    <div class="footer-decorations">
+      <div class="footer-line"></div>
+      <div class="footer-crosses">XX XXX XX</div>
+      <div class="footer-line pink"></div>
+    </div>
+    <p class="footer-copy">&copy; 2026 BLUE HURT GIRL. Engineered for Cam. Powered by Chaos.</p>
+  </footer>
+
+  <!-- Web App Logic & Canvas Visualizer -->
+  <script src="app.js"></script>
+</body>
+</html>
